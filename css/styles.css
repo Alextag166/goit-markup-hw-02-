@@ -7,7 +7,6 @@
 /* webstudio */
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -30,11 +29,21 @@
 
 .link:hover,
 .link:focus {
-  color: coral;
+  color: #2196f3;
 }
 
 .link:active {
   color: #2196f3;
+}
+
+/* studio */
+.h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 /* link студия портфолио + контакты */
@@ -46,6 +55,22 @@
   color: #212121;
 }
 
+.text-p {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.text-team {
+  font-size: 16px;
+  line-height: 1.37;
+}
+
+/* portfolio <p текст */
+.text-pf {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
 /* studio link студия и на portfolio link портфолио*/
 .web {
   color: #2196f3;
@@ -53,6 +78,11 @@
 
 /* нижний адресс */
 .down-nav {
+  font-size: 14px;
+  line-height: 1.71;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
   color: #ffffff;
   list-style: none;
 }
@@ -64,6 +94,11 @@
 
 /* нижние tel + web */
 .inf {
+  font-size: 14px;
+  line-height: 1.71;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  fill: Solid;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -91,16 +126,6 @@
 }
 
 /* studio */
-.h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-/* studio */
 .h2 {
   font-weight: 700;
   font-size: 36px;
@@ -108,8 +133,30 @@
   color: #212121;
 }
 
+/* portfolio h2 */
+.h2-pf {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 6%;
+  fill: Solid;
+  color: #212121;
+}
 /* studio */
 .h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+
+/* studio команда */
+.h3-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   color: #212121;
 }
 
@@ -120,7 +167,7 @@
   border: none;
   color: white;
   text-align: center;
-  font-style: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.6;
   margin: 4px 2px;
@@ -129,10 +176,10 @@
 /* для кнопки studio  */
 .button:hover,
 .button:focus {
-  color: coral;
+  color: var(--accent-color);
 }
 .button:active {
-  color: darkgreen;
+  color: #777777;
 }
 
 /* portfolio кнопки */
@@ -140,17 +187,18 @@
 .button-all {
   font-family: Roboto;
   background-color: #2196f3;
-  font-style: medium;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.39;
   letter-spacing: 0.03em;
+
   color: #ffffff;
   cursor: pointer;
 }
 
 .button-pf {
   font-family: Roboto;
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   line-height: 1.39;
@@ -158,6 +206,7 @@
   vertical-align: Top;
   letter-spacing: 3%;
   fill: Solid;
+
   color: #212121;
   list-style: none;
   cursor: pointer;
@@ -165,18 +214,25 @@
 
 .button-pf:hover,
 .button-pf:focus {
-  color: coral;
+  color: var(--accent-color);
 }
 
 .button-pf:active {
-  color: darkgreen;
+  color: #2196f3;
 }
 
 .button-all:hover,
 .button-all:focus {
-  color: coral;
+  color: var(--accent-color);
 }
 
 .button-all:active {
-  color: darkgreen;
+  color: #777777;
+}
+
+/* studio portfolio номер телефона */
+.telephone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
