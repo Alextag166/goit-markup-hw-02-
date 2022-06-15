@@ -11,6 +11,7 @@
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
+  letter-spacing: 0.03em;
 }
 
 /* верхний логотип цвет Studio */
@@ -44,6 +45,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  letter-spacing: 0.06em;
 }
 
 /* link студия портфолио + контакты */
@@ -58,17 +60,20 @@
 .text-p {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .text-team {
   font-size: 16px;
   line-height: 1.37;
+  letter-spacing: 0.03em;
 }
 
 /* portfolio <p текст */
 .text-pf {
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 /* studio link студия и на portfolio link портфолио*/
@@ -76,15 +81,17 @@
   color: #2196f3;
 }
 
-/* нижний адресс */
+/* нижний адрес */
 .down-nav {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  align: Left;
+  text-align: Left;
   vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: #ffffff;
   list-style: none;
+  letter-spacing: 0.03em;
 }
 
 /* studio */
@@ -94,13 +101,11 @@
 
 /* нижние tel + web */
 .inf {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  vertical-align: Top;
-  letter-spacing: 3%;
-  fill: Solid;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 /* убирает точки по краям */
@@ -131,6 +136,7 @@
   font-size: 36px;
   line-height: 1.16;
   color: #212121;
+  letter-spacing: 0.03em;
 }
 
 /* portfolio h2 */
@@ -138,10 +144,9 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  align: Left;
+  text-align: Left;
   vertical-align: Top;
-  letter-spacing: 6%;
-  fill: Solid;
+  letter-spacing: 0.06em;
   color: #212121;
 }
 /* studio */
@@ -150,6 +155,9 @@
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+  box-align: Left;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
 }
 
 /* studio команда */
@@ -158,6 +166,7 @@
   font-size: 16px;
   line-height: 1.19;
   color: #212121;
+  letter-spacing: 0.06em;
 }
 
 /* studio основная кнопка */
@@ -172,49 +181,47 @@
   line-height: 1.6;
   margin: 4px 2px;
   cursor: pointer;
+  letter-spacing: 0.06em;
 }
 /* для кнопки studio  */
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
+  color: #212121;
 }
 .button:active {
   color: #777777;
 }
 
 /* portfolio кнопки */
-
-.button-all {
-  font-family: Roboto;
-  background-color: #2196f3;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.39;
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-  cursor: pointer;
-}
-
 .button-pf {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
   line-height: 1.39;
   text-align: Center;
   vertical-align: Top;
-  letter-spacing: 3%;
-  fill: Solid;
+  letter-spacing: 0.03em;
 
   color: #212121;
   list-style: none;
   cursor: pointer;
 }
 
+.button-all {
+  font-family: Roboto;
+  background-color: #2196f3;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .button-pf:hover,
 .button-pf:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .button-pf:active {
@@ -223,7 +230,7 @@
 
 .button-all:hover,
 .button-all:focus {
-  color: var(--accent-color);
+  color: #212121;
 }
 
 .button-all:active {
@@ -235,4 +242,5 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
